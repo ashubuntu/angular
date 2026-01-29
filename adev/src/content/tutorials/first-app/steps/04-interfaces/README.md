@@ -66,7 +66,7 @@ There are a few more lessons to complete before that happens.
 1.  In the **Edit** pane of your IDE, open `src/app/home/home.ts`.
 1.  In `src/app/home/home.ts`, add this import statement after the existing `import` statements so that `Home` can use the new interface.
 
-      <docs-code language="angular-ts" header="Import Home in src/app/home/home.ts" path="adev/src/content/tutorials/first-app/steps/05-inputs/src/app/home/home.ts" visibleLines="[3]"/>
+      <docs-code language="angular-ts" header="Import HousingLocationInfo in src/app/home/home.ts" path="adev/src/content/tutorials/first-app/steps/05-inputs/src/app/home/home.ts" visibleLines="[3]"/>
 
 1.  In `src/app/home/home.ts`, replace the empty `export class Home {}` definition with this code to create a single instance of the new interface in the component.
 
